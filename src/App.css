@@ -1,0 +1,49 @@
+@import '~typeface-ibm-plex-sans';
+
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #101323 !important;
+  padding:0dp;
+  margin:0dp;
+}
+
+.main {
+  border-bottom: 1px solid #363F72;
+}
+
+.navbar-brand {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color:#9EA5D1;
+}
+
+.nav-link :hover{
+  color:#fff;
+}
+
+.navbar-toggler {
+  color: #fff;
+}
+
+.btn.btn-primary {
+  background-color: #101323 !important;
+  border-color: #101323 !important;
+  color: #ffffff !important;
+}
+
+.btn.btn-secondary {
+  background-color: #101323 !important;
+  border-color: #101323 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: #ffffff !important;
+  color: #101323 !important;
+
+}
