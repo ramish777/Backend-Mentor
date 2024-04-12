@@ -17,13 +17,10 @@
     align-items: left;
     height: fit-content;
     height:90vh;
-  }
-  
-  .content {
     text-align: left;
   }
 
-  .content h1{
+  .landing-page h1{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 60px;
     font-weight: bold;
@@ -55,7 +52,7 @@
     background: linear-gradient(90deg, #A8D218, #FFCE71, #76E2E0);
   }
 
-  .content p{
+  .landing-page p{
     margin-top: 10px;
   }
 
