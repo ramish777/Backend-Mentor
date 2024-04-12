@@ -1,0 +1,82 @@
+@import '~typeface-ibm-plex-sans';
+@import '~typeface-ibm-plex-mono';
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.options {
+    display: flex;
+}
+
+.dropdown {
+    display: flex;
+}
+
+label {
+    margin-right: 5px; /* Adjust spacing between label and select element */
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(33.33% - 20px); /* Adjust width as needed */
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(41, 48, 86, 0.24) !important;
+}
+
+.box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+}
+
+.box p {
+    margin-bottom: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 12px;
+}
+
+.try-now {
+    width: 95px;
+    height: 28px;
+    background-color: #fff !important;
+    font-weight: 500;
+    color: rgba(41, 48, 86) !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'IBM Plex Mono', sans-serif;;
+}
+
+.try-now:hover {
+    background-color: #007bff !important;
+    color: #fff;
+}
+
+.oneLine {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-weight: 12px;
+}
+
+.language {
+    margin-right: auto; /* Pushes the "Basic" text to the right */
+}
