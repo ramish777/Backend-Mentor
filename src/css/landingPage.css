@@ -1,101 +1,102 @@
-@import '~typeface-ibm-plex-sans';
-@import '~typeface-ibm-plex-mono';
+@import "~typeface-ibm-plex-sans";
+@import "~typeface-ibm-plex-mono";
 
-* {
+/* * {
     font-family: 'IBM Plex Sans', sans-serif;
     color: #fff;
     background-color: #101323 !important;
     padding:0dp;
     margin:0dp;
-  }
+  } */
 
 .landing-page {
-    padding:10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    height: fit-content;
-    height:90vh;
-    text-align: left;
-  }
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	height: fit-content;
+	height: 90vh;
+	text-align: left;
+}
 
-  .landing-page h1{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-  }
-  
-  .button-container {
-    margin-top: 20px;
-  }
-  
-  .gradient-button {
-    background: linear-gradient(90deg, #e2f1a2, #f7eac0, #bee6e6);
-    border: none;
-    color: #101323;
-    font-size: 12px;
-    font-weight: 900;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    width:280px;
-    margin-bottom: 24px;
-    height:fit-content;
-    border-radius: 999px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  .gradient-button:hover {
-    background: linear-gradient(90deg, #A8D218, #FFCE71, #76E2E0);
-  }
+.landing-page h1 {
+	font-family: "IBM Plex Sans", sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+}
 
-  .landing-page p{
-    margin-top: 10px;
-  }
+.button-container {
+	margin-top: 20px;
+}
 
-  .frame14{
-    display: flex;
-    margin-top: 40px;
-  }
+.gradient-button {
+	background: linear-gradient(90deg, #e2f1a2, #f7eac0, #bee6e6);
+	border: none;
+	color: #101323;
+	font-size: 12px;
+	font-weight: 900;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 280px;
+	margin-bottom: 24px;
+	height: fit-content;
+	border-radius: 999px;
+	cursor: pointer;
+	transition: background 0.3s ease;
+}
 
-  .outline-button {
-    padding-right: 32px;
-  padding-left: 32px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-    font-family: 'IBM Plex Mono', sans-serif;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 14px;
-    cursor: pointer;
-    transition: color 0.3s ease;
-    margin-right: 16px;
-    border-radius: 5px;
+.gradient-button:hover {
+	background: linear-gradient(90deg, #a8d218, #ffce71, #76e2e0);
+}
+
+.landing-page p {
+	margin-top: 10px;
+}
+
+.frame14 {
+	display: flex;
+	margin-top: 40px;
+}
+
+.outline-button {
+	padding-right: 32px;
+	padding-left: 32px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: "IBM Plex Mono", sans-serif;
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	margin-right: 16px;
+	border-radius: 5px;
 }
 
 .view-challenges-button {
-  padding-right: 32px;
-  padding-left: 32px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-    font-family: 'IBM Plex Mono', sans-serif;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 14px;
-    cursor: pointer;
-    transition: color 0.3s ease;
+	padding-right: 32px;
+	padding-left: 32px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: "IBM Plex Mono", sans-serif;
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	transition: color 0.3s ease;
 }
 
-.outline-button:hover, .view-challenges-button:hover {
-    background-color: #ffffff !important;
-    color: #101323 !important;
+.outline-button:hover,
+.view-challenges-button:hover {
+	background-color: #ffffff !important;
+	color: #101323 !important;
 }
-  
+
 .challenge-details {
-  font-size: 11px !important;
-  justify-content: center;
-  align-items: center;
+	font-size: 11px !important;
+	justify-content: center;
+	align-items: center;
 }

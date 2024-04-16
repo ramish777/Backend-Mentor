@@ -1,0 +1,36 @@
+.breadcrumb {
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+.breadcrumb-item {
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 0.5em;
+}
+
+.breadcrumb-item a {
+	text-decoration: none;
+	font-family: IBM Plex Mono;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: -0.02em;
+	text-align: left;
+
+	color: #667084;
+}
+
+.breadcrumb-item a:hover {
+	text-decoration: underline;
+}
+
+.breadcrumb-item.active a {
+	color: #ffffff;
+
+	pointer-events: none;
+}

@@ -1,49 +1,66 @@
-@import '~typeface-ibm-plex-sans';
+@import "~typeface-ibm-plex-sans";
+
+/* import IBM Plex Sans & Mono from google library */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
 
 * {
-  font-family: 'IBM Plex Sans', sans-serif;
-  background-color: #101323 !important;
-  padding:0dp;
-  margin:0dp;
+	font-family: "IBM Plex Sans", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
 }
 
 .main {
-  border-bottom: 1px solid #363F72;
+	border-bottom: 1px solid #363f72;
 }
 
 .navbar-brand {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: bold;
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: bold;
 }
 
 .nav-link {
-  font-family: 'IBM Plex Sans', sans-serif;
-  color:#9EA5D1;
+	font-family: "IBM Plex Sans", sans-serif;
+	color: #9ea5d1;
 }
 
-.nav-link :hover{
-  color:#fff;
+.nav-link :hover {
+	color: #fff;
 }
 
 .navbar-toggler {
-  color: #fff;
+	color: #fff;
 }
 
 .btn.btn-primary {
-  background-color: #101323 !important;
-  border-color: #101323 !important;
-  color: #ffffff !important;
+	background-color: #101323 !important;
+	border-color: #101323 !important;
+	color: #ffffff !important;
 }
 
 .btn.btn-secondary {
-  background-color: #101323 !important;
-  border-color: #101323 !important;
-  color: #ffffff !important;
+	background-color: #101323 !important;
+	border-color: #101323 !important;
+	color: #ffffff !important;
 }
 
 .btn-primary:hover,
 .btn-secondary:hover {
-  background-color: #ffffff !important;
-  color: #101323 !important;
+	background-color: #ffffff !important;
+	color: #101323 !important;
+}
 
+.outer-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: #0a0b15;
+}
+
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: transparent;
 }
