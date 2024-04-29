@@ -1,0 +1,11 @@
+@import '~typeface-ibm-plex-sans';
+@import '~typeface-ibm-plex-mono';
+
+.login-page {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  text-align: left;
+}

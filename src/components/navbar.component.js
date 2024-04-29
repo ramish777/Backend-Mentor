@@ -30,8 +30,8 @@ export default class Navbar extends Component {
                         </ul>
                     </div>
                     <div>
-                        <button className="btn btn-primary mx-2">Login</button>
-                        <button className="btn btn-secondary">Sign Up</button>
+                        <Link to="/login" className="btn btn-primary mx-2">Login</Link>
+                        <Link to="/signUp" className="btn btn-secondary">Sign Up</Link>
                     </div>
                 </div>
             </div>
